@@ -1,0 +1,3 @@
+D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/Adaptive.dir
+D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/edit_cache.dir
+D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/rebuild_cache.dir

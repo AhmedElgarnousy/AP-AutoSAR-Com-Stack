@@ -1,0 +1,60 @@
+<diagram program="umletino" version="15.1"><zoom_level>19</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>979</x><y>2109</y><w>684</w><h>494</h></coordinates><panel_attributes>ExecException Class
+--
+-mErrorCode: core::ErrorCode
+
+--
++ ExecException() : delete
++ ~ExecException() noexcept : default
++ explicit ExecException(core::ErrorCode errorCode) noexcept
++ const core::ErrorDomain &amp;GetExecErrorDomain() noexcept;
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1036</x><y>1691</y><w>684</w><h>494</h></coordinates><panel_attributes>ExecException Class
+--
+-mErrorCode: core::ErrorCode
+
+--
++ ExecException() : delete
++ ~ExecException() noexcept : default
++ explicit ExecException(core::ErrorCode errorCode) noexcept
++ const core::ErrorDomain &amp;GetExecErrorDomain() noexcept;
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>86</x><y>513</y><w>380</w><h>266</h></coordinates><panel_attributes>Class Definitions for em
+bg=yellow
+--
+- ExecutionClient class
+- WorkerRunnable class
+- WorkerThread class
+- DeterministicClient class
+-  FunctionGroup class
+- FunctionGroupState class
+- StateClient class</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>86</x><y>247</y><w>399</w><h>209</h></coordinates><panel_attributes>Type Definitions for em
+bg=blue
+--
+- ExecutionState
+- ActivationReturnType
+- DeterministicClient::TimeStamp
+- ExecutionError
+- ExecutionErrorEvent</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>86</x><y>817</y><w>608</w><h>285</h></coordinates><panel_attributes>Errors for em
+bg=green
+--
+The EM implements an error handling based on ara:-
+:core::Result. 
+The errors supported by the EM
+--
+
+- Execution Management error codes: ErrorDomain
+- ExecException type
+- ExecErrorDomain type</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>86</x><y>0</y><w>380</w><h>171</h></coordinates><panel_attributes>Exec API specification
+bg=red
+--
+Divide into 3 categorgies
+1- Type Definitions
+2- Class Definitions
+3- Errors
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
