@@ -2,7 +2,7 @@
 
 <!-- ![example workflow](https://github.com/langroodi/Adaptive-AUTOSAR/actions/workflows/cmake.yml/badge.svg) -->
 
-The goal of this project is to implement the comm. stack defined by the standard for Graduation Project. For more information, please refer to [the project Wiki](https://github.com/../wiki).
+The goal of this project is to implement the comm. stack defined by the standard for Graduation Project. For more information.
 
 ## Dependecies
 
@@ -23,7 +23,7 @@ It will be tried to use minimum number of dependencies as much as possible. The 
 
 <!-- ```bash
 cd build && ctest
-```` -->
+```` 
 
 ## Run
 
@@ -34,3 +34,5 @@ Please refer to [the project GitHub pages](#) powered by Doxygen.
 ## Contribution
 
 Please refer to [the contributing page](#).
+
+-->
