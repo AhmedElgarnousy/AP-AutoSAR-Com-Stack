@@ -1,3 +1,4 @@
-D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/Adaptive.dir
-D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/edit_cache.dir
-D:/Automotive mechatronics/GP Adaptive AutoSAR Stack/repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/rebuild_cache.dir
+/media/ahmed/01/Auto_Mechatronics/GP Adaptive AutoSAR Stack/Repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/test_ara_core_dir.dir
+/media/ahmed/01/Auto_Mechatronics/GP Adaptive AutoSAR Stack/Repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/adaptive_autosar.dir
+/media/ahmed/01/Auto_Mechatronics/GP Adaptive AutoSAR Stack/Repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/edit_cache.dir
+/media/ahmed/01/Auto_Mechatronics/GP Adaptive AutoSAR Stack/Repo/Adaptive-AutoSAR-Com-Stack/build/CMakeFiles/rebuild_cache.dir
