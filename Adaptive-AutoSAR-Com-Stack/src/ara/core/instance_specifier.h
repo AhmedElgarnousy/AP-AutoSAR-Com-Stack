@@ -15,7 +15,7 @@ InstanceSpecifier(std::string pInstance , uint16_t pInstance_id);
 InstanceSpecifier(const InstanceSpecifier &other); //copy constructor
 InstanceSpecifier(InstanceSpecifier &&other); // move constructor
 InstanceSpecifier& operator = (const InstanceSpecifier &other); //copy assignment operator
-InstanceSpecifier& operator = (InstanceSpecifier &sother); // move assignment operator
+InstanceSpecifier & operator=(InstanceSpecifier && other);// move assignment operator
 static Result<InstanceSpecifier> create(InstanceSpecifier metaModelIdentifier);//Create a new instance
 bool operator==(const InstanceSpecifier &other); // eq operator to compare with other InstanceSpecifier
 bool operator!=(const InstanceSpecifier &other); // uneq operator to compare with other InstanceSpecifi
