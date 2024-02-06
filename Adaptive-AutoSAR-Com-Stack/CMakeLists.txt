@@ -2,7 +2,7 @@
 
 # cmake_minimum_required(VERSION 3.27.0)
 # cmake_minimum_required(VERSION 3.0)
-cmake_minimum_required(VERSION 3.28.1)
+cmake_minimum_required(VERSION 3.27.0)
 project(adaptive_autosar)
 
 
@@ -18,22 +18,23 @@ project(adaptive_autosar)
 set(source_dir
   "${CMAKE_SOURCE_DIR}/src")
 
-set(source_ara_core_dir
+  set(source_ara_core_dir
   "${CMAKE_SOURCE_DIR}/src/ara/core")
-
   set(source_ara_exec_dir
   "${CMAKE_SOURCE_DIR}/src/ara/exec")
-
+  set(source_ara_exec_dir
+  "${CMAKE_SOURCE_DIR}/src/ara/com")
 
 # Test Directories:
 
 set(test_ara_core_dir
-  "${CMAKE_SOURCE_DIR}/test/ara/core/sqrt")
-
+  "${CMAKE_SOURCE_DIR}/test/ara/core")
 
 set(test_ara_exec_dir
   "${CMAKE_SOURCE_DIR}/test/ara/exec")
-
+  
+set(test_ara_com_dir
+    "${CMAKE_SOURCE_DIR}/test/ara/com")
 
 
 # Locate GTest
@@ -42,12 +43,10 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 
 # Link runTests with what we want to test and the GTest and pthread library
-add_executable(test_ara_core_dir 
-          ${test_ara_core_dir}/sqrt_test.cpp)
+# add_executable(sqrt_test 
+#           ${test_ara_core_dir}/sqrt/sqrt_test.cpp)
 
-target_link_libraries(test_ara_core_dir ${GTEST_LIBRARIES} pthread)
+# target_link_libraries(test_ara_core_dir ${GTEST_LIBRARIES} pthread)
 
 
-add_executable(adaptive_autosar
-                # ${source_dir}/app.cpp
-                ${test_ara_core_dir}/sqrt.cpp)
+add_executable(vector_test ${test_ara_core_dir}/vector/vector.cpp)

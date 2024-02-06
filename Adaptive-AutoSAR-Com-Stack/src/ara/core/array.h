@@ -2,7 +2,6 @@
 #define ARA_CORE_ARRAY_H_
 
 
-
 #include <iostream>
 #include <stdexcept>
 
@@ -83,24 +82,19 @@ public:
 
 
 
-// Comparison operators
-template <typename T, size_t N>
-bool operator==(const Array<T, N>& lhs, const Array<T, N>& rhs) {
-    for (size_t i = 0; i < N; ++i) {
-        if (lhs[i] != rhs[i]) return false;
+    // Comparison operators
+    template <typename T, size_t N>
+    bool operator==(const Array<T, N>& lhs, const Array<T, N>& rhs) {
+        for (size_t i = 0; i < N; ++i) {
+            if (lhs[i] != rhs[i]) return false;
+        }
+        return true;
     }
-    return true;
-}
 
-template <typename T, size_t N>
-bool operator!=(const Array<T, N>& lhs, const Array<T, N>& rhs) {
-    return !(lhs == rhs);
-}
-
-
-
-
-
+    template <typename T, size_t N>
+    bool operator!=(const Array<T, N>& lhs, const Array<T, N>& rhs) {
+        return !(lhs == rhs);
+    }
 
 
 //   }// core

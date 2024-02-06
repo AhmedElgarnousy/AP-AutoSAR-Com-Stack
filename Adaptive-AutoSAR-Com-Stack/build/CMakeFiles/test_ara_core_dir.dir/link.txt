@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_ara_core_dir.dir/test/ara/core/sqrt/sqrt_test.cpp.o -o test_ara_core_dir  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 
