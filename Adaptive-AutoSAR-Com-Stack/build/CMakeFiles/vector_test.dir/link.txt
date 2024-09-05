@@ -1,3 +1,0 @@
-"C:\Users\Ahmed Kamal\Downloads\cmake-3.27.0-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\vector_test.dir/objects.a
-C:\Users\AHMEDK~1\DOWNLO~1\X86_64~1.0-R\mingw64\bin\ar.exe qc CMakeFiles\vector_test.dir/objects.a @CMakeFiles\vector_test.dir\objects1.rsp
-C:\Users\AHMEDK~1\DOWNLO~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE -Wl,--whole-archive CMakeFiles\vector_test.dir/objects.a -Wl,--no-whole-archive -o vector_test.exe -Wl,--out-implib,libvector_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vector_test.dir\linkLibs.rsp
