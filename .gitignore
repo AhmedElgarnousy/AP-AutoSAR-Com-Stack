@@ -4,7 +4,15 @@
 .vscode/launch.json
 
 # CMake build
-#build/
+# build/
+# videos
+*.mp4
+libs/
+/libs/*
+tasks/
+videos/
+Docs_Resources/
+AP_notes/
 
 CMakeLists.txt.user
 CMakeCache.txt
