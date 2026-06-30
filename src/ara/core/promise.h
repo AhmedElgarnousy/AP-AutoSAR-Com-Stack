@@ -1,5 +1,0 @@
-#ifndef ARA_CORE_PROMISE_H_
-#define ARA_CORE_PROMISE_H_
-
-
-#endif /*ARA_CORE_PROMISE_H_*/
