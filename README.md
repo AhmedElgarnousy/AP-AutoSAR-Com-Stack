@@ -1,6 +1,6 @@
 # Adaptive-AUTOSAR
 
-# 🚗 An Infotainment System over the Aaptive AUTOSAR Communication Stack `ara::com`
+# 🚗 An Infotainment System over the Adaptive AUTOSAR Communication Stack `ara::com`
 
 > **Graduation Project**
 
@@ -36,7 +36,7 @@ The project bridges the gap between classical embedded development and modern au
 
 ---
 
-## 🏗️ System Architecture
+<!-- ## 🏗️ System Architecture
 
 ```
 ┌──────────────────────────────────────────────────┐
@@ -54,16 +54,19 @@ The project bridges the gap between classical embedded development and modern au
 ├──────────────────────────────────────────────────┤
 │              Raspberry Pi Hardware                │
 │          (BSD Socket / Ethernet Layer)            │
-└──────────────────────────────────────────────────┘
-```
+└──────────────────────────────────────────────────┘ -->
 
-### system testing
+<!-- ``` -->
 
-<img src="gp-app/gp-output-test.jpeg" alt="" width="50%" height="50%" align="center">
 
 ### system diagram
 
+---
+
+
 <img src="Notes/GP_System_Diagram.png" alt="" width="100%" height="100%" align="center">
+
+<img src="gp-app/gp-output-test.jpeg" alt="" width="50%" height="50%" align="center">
 
 ---
 
@@ -125,9 +128,9 @@ Structured logging is integrated throughout the system using the **Log & Trace**
 - Severity-level filtering for runtime diagnostics
 - Traceable component-level logging aligned with AUTOSAR logging interfaces
 
----
+<!-- --- -->
 
-## 📊 AUTOSAR Adaptive Platform – Functional Cluster Coverage
+<!-- ## 📊 AUTOSAR Adaptive Platform – Functional Cluster Coverage
 
 | Functional Cluster                              | Status                   |
 | ----------------------------------------------- | ------------------------ |
@@ -140,8 +143,12 @@ Structured logging is integrated throughout the system using the **Log & Trace**
 | Diagnostics (`ara::diag`)                       | ⬜ Out of scope          |
 | Persistency                                     | ⬜ Out of scope          |
 | Cryptography                                    | ⬜ Out of scope          |
-| Time Synchronization                            | ⬜ Out of scope          |
+| Time Synchronization                            | ⬜ Out of scope          | -->
 
 ---
 
 _Built with passion for automotive software engineering — where mechanical systems meet intelligent software._
+
+```
+
+```
